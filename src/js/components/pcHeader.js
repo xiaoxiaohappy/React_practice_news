@@ -1,7 +1,6 @@
 import React from 'react';
 import {Row, Col} from 'antd';
 import {Menu, Icon} from 'antd';
-import '../../css/pc.css'
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
