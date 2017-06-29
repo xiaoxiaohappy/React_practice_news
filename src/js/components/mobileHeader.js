@@ -6,7 +6,7 @@ import React from 'react';
 
 import {Row,Col} from 'antd'
 
-export default class obileHeader extends React.Component{
+export default class MobileHeader extends React.Component{
     render(){
         return (
             <div id="mobileheader">

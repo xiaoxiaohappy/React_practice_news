@@ -5,6 +5,7 @@
 import React from 'react';
 import MobileHeader from './MobileHeader';
 import {Row,Col} from 'antd'
+import MobileFooter from './mobileFooter'
 
 export default class MobileIndex extends React.Component{
     render(){
@@ -13,6 +14,9 @@ export default class MobileIndex extends React.Component{
                 <MobileHeader>
 
                 </MobileHeader>
+
+
+                <MobileFooter></MobileFooter>
             </div>
         );
     };
