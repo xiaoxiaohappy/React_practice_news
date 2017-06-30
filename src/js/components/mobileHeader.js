@@ -3,11 +3,11 @@
  */
 
 import React from 'react';
-import {Row, Col} from 'antd';
 import {
     Menu, Icon,
     Tabs, message, Form, Modal, Input, Button, Checkbox
 } from 'antd';
+
 const FormItem = Form.Item;
 const TabPane = Tabs.TabPane;
 const SubMenu = Menu.SubMenu;
@@ -91,7 +91,7 @@ const MenuItemGroup = Menu.ItemGroup;
                 <Icon type="inbox"/>
             </link>
                 :
-            <Icon type="setting" onClick={this.login.bind(this)}/>;
+            <Icon type="user" onClick={this.login.bind(this)}/>;
         //这里和pc不一样
 
 

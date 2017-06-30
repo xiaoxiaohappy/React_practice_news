@@ -35,6 +35,8 @@ class PCHeader extends React.Component {
 
             //调用setModalVisible方法，让模态框显示
             this.setModalVisible(true);
+            // console.log(this.current)
+
         }
         else {
             //点击哪一个就让哪个高亮
