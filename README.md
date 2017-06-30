@@ -17,3 +17,6 @@
 
 轮播图（使用ant design 的Carousel）
 <img src="READMEpictures/Carousel.png"/>
+
+新闻tabs
+<img src="READMEpictures/news_tab.png"/>
