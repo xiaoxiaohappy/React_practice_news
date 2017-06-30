@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobileHeader.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mobileHeader.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/components/mobileHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="216">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="e#46#72#0" expanded="true" />
               </folding>
@@ -100,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pcHeader.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pcHeader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/pcHeader.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="124" column="61" lean-forward="false" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+              <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -136,6 +136,8 @@
     <findStrings>
       <find>fetch</find>
       <find>setModalVisible</find>
+      <find>getFieldProps</find>
+      <find>handleSubmit</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -147,10 +149,10 @@
         <option value="$PROJECT_DIR$/src/css/pc.css" />
         <option value="$PROJECT_DIR$/src/css/mobile.css" />
         <option value="$PROJECT_DIR$/src/js/components/pcFooter.js" />
-        <option value="$PROJECT_DIR$/src/js/components/mobileHeader.js" />
         <option value="$PROJECT_DIR$/src/js/components/mobileFooter.js" />
         <option value="$PROJECT_DIR$/src/js/components/mobileIndex.js" />
         <option value="$PROJECT_DIR$/src/js/components/pcHeader.js" />
+        <option value="$PROJECT_DIR$/src/js/components/mobileHeader.js" />
       </list>
     </option>
   </component>
@@ -369,12 +371,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498722163946</updated>
-      <workItem from="1498722165385" duration="14161000" />
+      <workItem from="1498722165385" duration="19492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14161000" />
+    <option name="totallyTimeSpent" value="19492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -484,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/mobileHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#46#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/mobileIndex.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -535,9 +527,19 @@
     <entry file="file://$PROJECT_DIR$/src/js/components/pcHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="124" column="61" lean-forward="false" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+          <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/mobileHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#46#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
