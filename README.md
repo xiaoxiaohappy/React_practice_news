@@ -12,14 +12,17 @@
 
 # 执行
 
-开始先做头部和底部，中间暂未，目前是“注册/登陆”模态框，采用ant design
+**开始先做头部和底部，中间暂未，目前是“注册/登陆”模态框，采用ant design**
 <img src="READMEpictures/register.png">
 
-轮播图（使用ant design 的Carousel）
+**轮播图（使用ant design 的Carousel）**
 <img src="READMEpictures/Carousel.png"/>
 
-新闻模块tabs
+**新闻模块tabs**
 <img src="READMEpictures/news_tab.png"/>
 
-图片模块
+**图片模块**
 <img src="READMEpictures/images.png"/>
+
+**目前手机端的显示：新闻分类**
+<img src="READMEpictures/mobileNews.png"/>
