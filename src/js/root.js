@@ -12,7 +12,7 @@ import 'antd/dist/antd.css';
 import MediaQuery from 'react-responsive';
 
 import PCNewsDetails from './components/pcNewsDetails'
-
+import MobileNewsDetails from './components/mobileNewsDetails'
 
 
 export default class Root extends React.Component {
@@ -31,8 +31,18 @@ export default class Root extends React.Component {
 
 
                 </MediaQuery>
+
+
+
+
                 <MediaQuery query="(max-device-width:1224px)">
-                    <MobileIndex/>
+                    <Router history={hashHistory}>
+                            {/*默认加载MobileIndex*/}
+                             <Route path="/" component={MobileIndex}> </Route>
+
+                             <Route path="/details/:uniquekey" component={MobileNewsDetails}></Route>
+                     </Router>
+
                 </MediaQuery>
             </div>
         );

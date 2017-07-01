@@ -35,7 +35,7 @@ export default class MobileList extends React.Component{
             ?news.map((newsItem,index)=>(
                 <section key={index} class="m_article list-item special_section cleaxfix">
                     {/*引号中加变量要写$*/}
-                    <Link to={'detial/${newsItem.uniquekey}'}>
+                    <Link to={`details/${newsItem.uniquekey}`}>
                         {/*这些样式类都是提前写好的*/}
                         <div class="m_article_img">
                            <img src={newsItem.thumbnail_pic_s} alt={newsItem.uniquekey}/>
