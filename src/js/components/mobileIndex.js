@@ -4,7 +4,7 @@
 
 import React from 'react';
 import MobileHeader from './MobileHeader';
-import { Tabs,Carousel } from 'antd';
+import { Tabs,Carousel,BackTop } from 'antd';
 const TabPane = Tabs.TabPane;
 import MobileFooter from './mobileFooter'
 
@@ -61,6 +61,9 @@ export default class MobileIndex extends React.Component{
 
 
                 <MobileFooter></MobileFooter>
+
+
+                <BackTop/>
             </div>
         );
     };

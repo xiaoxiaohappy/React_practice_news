@@ -7,6 +7,8 @@ import PCFooter from './pcFooter'
 
 import PCNewsContainer from './pcNewsContainer'
 
+import {BackTop} from 'antd'
+
 export default class PCIndex extends React.Component {
     render() {
         return (
@@ -16,6 +18,8 @@ export default class PCIndex extends React.Component {
                 <PCNewsContainer></PCNewsContainer>
 
                 <PCFooter></PCFooter>
+
+                <BackTop/>
             </div>
         );
     };

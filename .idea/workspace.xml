@@ -21,10 +21,10 @@
       <file leaf-file-name="pcNewsContainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/pcNewsContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
-                <element signature="e#45#71#0" expanded="true" />
+                <element signature="e#179#218#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,21 +33,21 @@
       <file leaf-file-name="mobileIndex.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/mobileIndex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+            <state relative-caret-position="542">
+              <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
               <folding>
                 <element signature="e#46#72#0" expanded="true" />
-                <element signature="e#184#225#0" expanded="true" />
+                <element signature="e#192#233#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pcIndex.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pcIndex.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/components/pcIndex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="513">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="e#45#71#0" expanded="true" />
               </folding>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pcNewsDetails.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pcNewsDetails.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/pcNewsDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="55" column="106" lean-forward="false" selection-start-line="55" selection-start-column="106" selection-end-line="55" selection-end-column="106" />
+            <state relative-caret-position="602">
+              <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="26" />
               <folding>
                 <element signature="e#44#70#0" expanded="true" />
               </folding>
@@ -158,8 +158,8 @@
       <find>m_article_img</find>
       <find>.m_article .m_article_img</find>
       <find>ant-tabs</find>
-      <find>PCNewsBlock</find>
       <find>cardTitle</find>
+      <find>PCNewsBlock</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -173,16 +173,16 @@
         <option value="$PROJECT_DIR$/src/js/components/pcProduct.js" />
         <option value="$PROJECT_DIR$/src/css/pc.css" />
         <option value="$PROJECT_DIR$/src/js/components/pcNewsImageBlock.js" />
-        <option value="$PROJECT_DIR$/src/js/components/pcNewsContainer.js" />
         <option value="$PROJECT_DIR$/src/js/components/mobileList.js" />
         <option value="$PROJECT_DIR$/src/css/mobile.css" />
-        <option value="$PROJECT_DIR$/src/js/components/mobileIndex.js" />
         <option value="$PROJECT_DIR$/src/js/components/pcDetail.js" />
         <option value="$PROJECT_DIR$/src/js/components/pcNewsDetail.js" />
-        <option value="$PROJECT_DIR$/src/js/components/pcIndex.js" />
         <option value="$PROJECT_DIR$/src/js/root.js" />
         <option value="$PROJECT_DIR$/src/js/components/pcNewsBlock.js" />
         <option value="$PROJECT_DIR$/src/js/components/pcNewsDetails.js" />
+        <option value="$PROJECT_DIR$/src/js/components/mobileIndex.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pcNewsContainer.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pcIndex.js" />
       </list>
     </option>
   </component>
@@ -404,12 +404,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498722163946</updated>
-      <workItem from="1498722165385" duration="45263000" />
+      <workItem from="1498722165385" duration="46089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45263000" />
+    <option name="totallyTimeSpent" value="46089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -591,37 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/mobileIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-          <folding>
-            <element signature="e#46#72#0" expanded="true" />
-            <element signature="e#184#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/pcIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="e#45#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/pcNewsContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/pcNewsImageBlock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -634,10 +603,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/pcNewsDetails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="55" column="106" lean-forward="false" selection-start-line="55" selection-start-column="106" selection-end-line="55" selection-end-column="106" />
+        <state relative-caret-position="602">
+          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="26" />
           <folding>
             <element signature="e#44#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/mobileIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding>
+            <element signature="e#46#72#0" expanded="true" />
+            <element signature="e#192#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pcNewsContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#179#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pcIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#45#71#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,7 +2,7 @@
  * Created by xiaoxiao on 2017/7/1.
  */
 import React from 'react';
-import { Row,Col } from 'antd';
+import { Row,Col ,BackTop} from 'antd';
 
 import PCHeader from './pcHeader';
 import PCFooter from './pcFooter'
@@ -61,6 +61,10 @@ export default class PCNewsDetails extends React.Component{
                 </Row>
 
                 <PCFooter></PCFooter>
+
+
+
+                <BackTop/>
 
             </div>
         )
