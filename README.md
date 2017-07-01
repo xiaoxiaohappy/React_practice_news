@@ -26,3 +26,6 @@
 
 **目前手机端的显示：新闻分类**
 <img src="READMEpictures/mobileNews.png"/>
+
+**点击首页的右侧新闻，路由转到details/下的页面信息，details/后的是根据数据取的:uniquekey值**
+<img src="READMEpictures/news_block_router.png"/>

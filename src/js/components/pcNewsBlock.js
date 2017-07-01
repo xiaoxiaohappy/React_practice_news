@@ -35,8 +35,9 @@ export default class PCNewsBlock extends React.Component{
         ?news.map((newsItem,index)=>(
             <li key={index}>
 
-                {/*uniquekey是新闻的数据中的属性*/}
-                <Link to={'details/${newsItem.uniquekey}'} target="_blank">
+                {/*uniquekey是新闻的数据中的属性,引号中加变量要 先写$*/}
+
+                <Link to={`details/${newsItem.uniquekey}`} target="_blank">
                     {newsItem.title}
                 </Link>
             </li>
