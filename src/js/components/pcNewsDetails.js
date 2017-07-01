@@ -7,6 +7,7 @@ import { Row,Col } from 'antd';
 import PCHeader from './pcHeader';
 import PCFooter from './pcFooter'
 
+import PCImagesBlock from './pcNewsImageBlock'
 
 
 export default class PCNewsDetails extends React.Component{
@@ -51,7 +52,9 @@ export default class PCNewsDetails extends React.Component{
 
 
 
-                    <Col span={6}></Col>
+                    <Col span={6}>
+                        <PCImagesBlock count={30} type="top" width="100%" cardTitle="相关新闻" imageWidth="140px"/>
+                    </Col>
 
                     <Col span={2}></Col>
 
