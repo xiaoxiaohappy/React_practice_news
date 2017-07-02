@@ -9,7 +9,7 @@ import PCFooter from './pcFooter'
 
 import PCImagesBlock from './pcNewsImageBlock'
 
-
+import CommonComments from './commonComments'
 export default class PCNewsDetails extends React.Component{
     constructor(){
         super();
@@ -48,6 +48,11 @@ export default class PCNewsDetails extends React.Component{
                     <Col span={14} class="container">
                         {/*dangerouslySetInnerHTML引入html*/}
                         <div class="articleContainer" dangerouslySetInnerHTML={this.createMarkup()}></div>
+
+
+
+                        {/*天际评论*/}
+                        <CommonComments uniquekey={this.props.params.uniquekey}/>
                     </Col>
 
 

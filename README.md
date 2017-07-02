@@ -39,3 +39,8 @@
 **紧接着上面的路由界面增添图片新闻模块**
 
 <img src="READMEpictures/news_image_router.png"/>
+
+
+**添加评论**
+
+<img src="READMEpictures/PCComments.png"/>

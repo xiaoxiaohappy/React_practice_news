@@ -28,7 +28,7 @@ export default class MobileNewsDetails extends React.Component {
         return (
             <div id="mobileDetailsContainer">
                 <MobileHeader></MobileHeader>
-                <div class="ucmobileList">
+                <div>
                     <Row>
                         <Col span={24} className="container">
                             <div class="articleContainer" dangerouslySetInnerHTML={this.createMarkup()}></div>
