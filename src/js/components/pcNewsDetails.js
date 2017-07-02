@@ -51,7 +51,7 @@ export default class PCNewsDetails extends React.Component{
 
 
 
-                        {/*天际评论*/}
+                        {/*添加评论*/}
                         <CommonComments uniquekey={this.props.params.uniquekey}/>
                     </Col>
 

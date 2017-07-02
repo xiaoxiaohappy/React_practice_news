@@ -43,4 +43,10 @@
 
 **添加评论**
 
+PC端
+
 <img src="READMEpictures/PCComments.png"/>
+
+手机端
+
+<img src="READMEpictures/mobileComments.png"/>

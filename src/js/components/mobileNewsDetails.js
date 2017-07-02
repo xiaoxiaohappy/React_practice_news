@@ -5,6 +5,9 @@ import React from 'react';
 import {Row, Col, BackTop} from 'antd';
 import MobileHeader from './mobileHeader';
 import MobileFooter from './mobileFooter';
+
+import CommonComments from './commonComments'
+
 export default class MobileNewsDetails extends React.Component {
     constructor() {
         super();
@@ -32,6 +35,11 @@ export default class MobileNewsDetails extends React.Component {
                     <Row>
                         <Col span={24} className="container">
                             <div class="articleContainer" dangerouslySetInnerHTML={this.createMarkup()}></div>
+
+
+                            {/*添加评论*/}
+                            <CommonComments uniquekey={this.props.params.uniquekey}/>
+
                         </Col>
                     </Row>
                     <MobileFooter></MobileFooter>
