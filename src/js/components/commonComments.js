@@ -12,7 +12,8 @@ import {
     Input,
     Button,
     CheckBox,
-    Modal
+    Modal,
+    notification
 } from 'antd';
 const FormItem = Form.Item;
 const SubMenu = Menu.SubMenu;
@@ -52,6 +53,17 @@ class CommonComments extends React.Component {
                 this.componentDidMount();
             })
         };
+        addUserCollection(){
+            var myFetchOptions={
+                method:'GET'
+            }
+            fetch("http://newsapi.gugujiankong.com/Handler.ashx?action=uc&userid="+localStorage.userid+"&uniquekey="+this.props.uniquekey,myFetchOptions)
+                .then(response=>response.json())
+                .then(json=>{
+                    //收藏成功后要全局提醒
+                    notification['success']({message:'提醒的标题',description:'收藏本文章成功'})
+                })
+        }
         render() {
             let {getFieldProps} = this.props.form;
             const {comments} = this.state;
@@ -79,6 +91,12 @@ class CommonComments extends React.Component {
                                     <Input type="textarea" placeholder="请随便写" {...getFieldProps('remark',{initialValue: ''})}/>
                                 </FormItem>
                                 <Button type="primary" htmlType="submit">提交评论</Button>
+
+                                &nbsp;
+                                &nbsp;
+
+                                <Button type="primary" htmlType="button" onClick={this.addUserCollection.bind(this)}>收藏该文章</Button>
+
                             </Form>
                         </Col>
                     </Row>
